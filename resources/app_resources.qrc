@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <!-- 图片资源 -->
+        <file>images/app_icon.png</file>
+        <!-- 样式表 -->
+        <file>styles/darktheme.qss</file>
+    </qresource>
+</RCC>
