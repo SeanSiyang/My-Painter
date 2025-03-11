@@ -1,13 +1,13 @@
-#include "Test.h"
+#include "test.h"
 
-Test::Test(QWidget* parent)
+test::test(QWidget* parent)
     : QMainWindow(parent)
-    , ui(new Ui_Test)
+    , ui(new Ui_test)
 {
     ui->setupUi(this);
 }
 
-Test::~Test()
+test::~test()
 {
-    delete ui; 
+    delete ui;
 }

@@ -1,14 +1,16 @@
 #pragma once
-#include "ui_Test.h"
+
+#include "ui_test.h"    // 直接引入Ui_test.h，而不是通过 namespace
 #include <QMainWindow>
 
-class Test : public QMainWindow {
+class test : public QMainWindow 
+{
     Q_OBJECT
-    
+
 public:
-    Test(QWidget* parent = nullptr);
-    ~Test();
+    test(QWidget* parent = nullptr);
+    ~test();
 
 private:
-    Ui_Test* ui;
+    Ui_test *ui;
 };
